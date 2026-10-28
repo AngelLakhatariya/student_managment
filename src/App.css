@@ -1,0 +1,80 @@
+:root {
+  --purple-1: #5b21d6;
+  --purple-2: #7b2ff7;
+  --blue-btn: #3a1fd1;
+  --bg-gray: #ececec;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(135deg, #6a11cb 0%, #4a1fe0 100%);
+  min-height: 100vh;
+}
+
+.app-navbar {
+  background: rgba(30, 10, 90, 0.55);
+  backdrop-filter: blur(6px);
+}
+.app-navbar .nav-link { color: rgba(255, 255, 255, 0.8); }
+.app-navbar .nav-link.active,
+.app-navbar .nav-link:hover { color: #fff; }
+
+.page-bg { padding: 32px 0 60px; }
+
+.card-surface {
+  background: #f4f4f4;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-card {
+  background: #f1f1f1;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+}
+.dash-header {
+  background: linear-gradient(90deg, var(--purple-1), var(--purple-2));
+  color: #fff;
+  padding: 28px 32px;
+}
+.bg-light-gray { background: var(--bg-gray); }
+
+.avatar-lg { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; }
+.avatar-sm { width: 38px; height: 38px; border-radius: 50%; object-fit: cover; }
+
+.btn-primary-pill {
+  background: var(--blue-btn);
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 28px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  border: none;
+  box-shadow: 0 6px 14px rgba(58, 31, 209, 0.4);
+}
+.btn-primary-pill:hover { background: #2c14b0; color: #fff; }
+
+.tab-btn {
+  background: none;
+  border: none;
+  padding: 0 0 6px;
+  color: var(--purple-2);
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+}
+.tab-btn.active { color: #333; border-bottom-color: var(--purple-2); font-weight: 700; }
+
+.student-table th {
+  color: #aaa;
+  font-weight: 500;
+  font-size: 0.75rem;
+  border-bottom: none;
+}
+.student-table td { background: transparent; font-size: 0.85rem; border-bottom: 1px solid #e3e3e3; padding: 14px 8px; }
+.student-name { color: #1d4e6b; font-weight: 600; text-decoration: none; }
+.student-name:hover { text-decoration: underline; }
+.edit-link { color: #c0399f; text-decoration: none; font-size: 0.8rem; }
+.tiny { font-size: 0.7rem; }

@@ -1,0 +1,112 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Jaspreet Kaur Ahuja",
+      "school": "Orchids International School, Noida",
+      "email": "teacher@school.com",
+      "password": "123456",
+      "image": "https://i.pravatar.cc/150?img=47"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "rollNumber": 101,
+      "name": "Kajal Sharma",
+      "phone": "9876543210",
+      "email": "kajal@school.com",
+      "age": 8,
+      "class": "3A",
+      "grade": "Grade 3",
+      "subject": "Science",
+      "marks": 85,
+      "examType": "Online Exam",
+      "image": "https://i.pravatar.cc/100?img=5"
+    },
+    {
+      "id": 2,
+      "rollNumber": 102,
+      "name": "Neeta Rathod",
+      "phone": "9876543211",
+      "email": "neeta@school.com",
+      "age": 8,
+      "class": "3A",
+      "grade": "Grade 3",
+      "subject": "Maths",
+      "marks": 63,
+      "examType": "Missed Exam",
+      "image": "https://i.pravatar.cc/100?img=9"
+    },
+    {
+      "id": 3,
+      "rollNumber": 103,
+      "name": "Amey Gupta",
+      "phone": "9876543212",
+      "email": "amey@school.com",
+      "age": 9,
+      "class": "3B",
+      "grade": "Grade 3",
+      "subject": "English Literature",
+      "marks": 56,
+      "examType": "Class Exam",
+      "image": "https://i.pravatar.cc/100?img=12"
+    },
+    {
+      "id": 4,
+      "rollNumber": 104,
+      "name": "Sharman Doshi",
+      "phone": "9876543213",
+      "email": "sharman@school.com",
+      "age": 8,
+      "class": "3B",
+      "grade": "Grade 3",
+      "subject": "English Grammar",
+      "marks": 74,
+      "examType": "Class Exam",
+      "image": "https://i.pravatar.cc/100?img=15"
+    },
+    {
+      "id": 5,
+      "rollNumber": 105,
+      "name": "Amey Gupta",
+      "phone": "9876543212",
+      "email": "amey@school.com",
+      "age": 9,
+      "class": "3B",
+      "grade": "Grade 3",
+      "subject": "Environmental Studies",
+      "marks": 63,
+      "examType": "Online Exam",
+      "image": "https://i.pravatar.cc/100?img=12"
+    },
+    {
+      "id": 6,
+      "rollNumber": 106,
+      "name": "Sharman Doshi",
+      "phone": "9876543213",
+      "email": "sharman@school.com",
+      "age": 8,
+      "class": "3A",
+      "grade": "Grade 3",
+      "subject": "Hindi",
+      "marks": 56,
+      "examType": "Class Exam",
+      "image": "https://i.pravatar.cc/100?img=15"
+    },
+    {
+      "name": "Angel Soni",
+      "rollNumber": 109,
+      "phone": "1234567890",
+      "email": "angellakhatariya26@gmail.com",
+      "age": 21,
+      "class": "3A",
+      "grade": "Grade 3",
+      "image": "https://i.pravatar.cc/100?u=angellakhatariya26%40gmail.com",
+      "subject": "Science",
+      "marks": 79,
+      "examType": "Online Exam",
+      "id": 7
+    }
+  ]
+}
